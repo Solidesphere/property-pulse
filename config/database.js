@@ -11,7 +11,9 @@ const connectDB = async () => {
   }
   // connect to mongodb
   try {
-    await mongoose.connect(process.env.MONGODB_URI);
+    await mongoose.connect(process.env.MONGODB_URI, {
+      dbName: "propertypulse",
+    });
     connected = true;
   } catch (error) {
     console.log(error);
