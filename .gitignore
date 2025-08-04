@@ -42,7 +42,24 @@ data
 *storybook.log
 storybook-static
 
-stories
+# Storybook files
+.storybook/
+
 /stories
-.storybook
-/.storybook
+stories
+# Build files
+.build/
+dist/
+
+# Node modules
+node_modules/
+
+# Config files
+.eslintignore
+.eslintrc.json
+.stylelintignore
+.stylelintrc.json
+
+# Other files
+.DS_Store
+Thumbs.db
