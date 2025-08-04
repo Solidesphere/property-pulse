@@ -23,3 +23,4 @@ const PropertyPage = async () => {
 };
 
 export default PropertyPage;
+
